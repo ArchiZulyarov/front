@@ -1,0 +1,52 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15pt;
+    background-color: #efefef;
+    padding: 10px;
+    margin: 0;
+}
+h1 {
+    font-size: 15pt;
+    color: #000000;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+{
+  < link href = "test.css" rel = "stylesheet" media = "only screen and (max-width:480px)" / > < link href = "css/test1.css" rel = "stylesheet" media = "only screen and (max-width:480px)" / > < link href = "css/test2.css" rel = "stylesheet" media = "only screen and (min-width:480px)" / >
+}
+#header {
+    background-image: url("http://www.colonialjewelers.com/wp-content/uploads/2017/01/diamonds.jpg");
+
+    background-size: contain;
+}
+#header p {
+    font-size: 50pt;
+    color: #000000;
+    padding-top: 50px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+iframe, audio {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #000000;
+}
